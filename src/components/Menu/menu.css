@@ -1,0 +1,8 @@
+.menu {
+    display: flex;
+    width: 100%;
+    padding-inline: 15px;
+    background-color: #BC000E;
+    /* background-color: #a3bc00; */
+    justify-content: space-between;
+}
