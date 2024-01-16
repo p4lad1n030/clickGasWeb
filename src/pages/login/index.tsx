@@ -53,7 +53,7 @@ const Login = () => {
   };
   return (
     <>
-      {logIn && <Navigate to={"/user"} />}
+      {logIn && <Navigate to={"/clickgasweb/user"} />}
       <section className="container  h">
         <Menu />
         <img src={logo} alt="" className="img" />
