@@ -8,28 +8,24 @@ import User from '../pages/user';
 
 
 const router = createBrowserRouter([
-  {
-    // element: <Layout/>,
-    children: [
+  
       {
         path: "/clickgasweb/",
         element: <Home/>
       },
       {
-        path: "/clickgasweb//login",
+        path: "/clickgasweb/login",
         element: <Login/>
       },
       {
-        path: "/clickgasweb//politica",
+        path: "/clickgasweb/politica",
         element: <Politica/>
       },
       {
-        path: "/clickgasweb//user",
+        path: "/clickgasweb/user",
         element: <User/>
       },
-     
-    ]
-  }
+
 ])
 
 export { router };
