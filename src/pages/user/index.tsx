@@ -50,23 +50,23 @@ const User = () => {
       <Menu />
       <img src={logo} alt="" className="img" />
       <article className="content">
-        <div className="w-full flex  justify-between items-center">
+        <div className="w-full flex  justify-between items-center flex-wrap">
           <h1 className="text-5xl mx-auto">{user?.name}</h1>
           <img src={user?.photo!} alt="" className="img" />
         </div>
-        <div className="flex justify-around items-center w-full border-[#BC000E] border rounded-md">
-          <p className="text-4xl">Fone: {user?.fone}</p>
-          <p className="text-4xl">N°:{user?.numberHause}</p>
+        <div className="flex justify-around items-center w-full border-[#BC000E] border rounded-md flex-wrap">
+          <p className="text-4xl text-center">Fone: {user?.fone}</p>
+          <p className="text-4xl text-center">N°:{user?.numberHause}</p>
         </div>
         <div className="flex justify-around min-w-full border-[#BC000E] border rounded-md items-center">
-          <p className="text-4xl">Rua:{user?.streetName}</p>
+          <p className="text-4xl text-center">Rua:{user?.streetName}</p>
         </div>
         <div className="flex justify-around  min-w-full border-[#BC000E] border rounded-md items-center">
-          <p className="text-4xl">Referência:{user?.refHause}</p>
+          <p className="text-4xl text-center">Referência:{user?.refHause}</p>
         </div>
-        <div className="flex justify-around items-center w-full border-[#BC000E] border rounded-md ">
-          <p className="text-4xl">Bairro: {user?.neighborhood}</p>
-          <p className="text-4xl">Pagamento: {user?.paymentForm}</p>
+        <div className="flex justify-around items-center w-full border-[#BC000E] border rounded-md flex-wrap">
+          <p className="text-4xl text-center">Bairro: {user?.neighborhood}</p>
+          <p className="text-4xl text-center">Pagamento: {user?.paymentForm}</p>
         </div>
       </article>
     </section>
