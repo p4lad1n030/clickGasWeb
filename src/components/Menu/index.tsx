@@ -57,7 +57,7 @@ const Menu = ({ politica }: Politica) => {
 
         {!politica && (
           <Link to={"/clickgasweb/politica"}>
-            <p className="text-white font-bold text-3xl ml-5">
+            <p className="text-white font-bold text-3xl ">
               Politica de Privacidade
             </p>
           </Link>

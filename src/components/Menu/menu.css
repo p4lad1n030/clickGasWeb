@@ -5,4 +5,5 @@
     background-color: #BC000E;
     /* background-color: #a3bc00; */
     justify-content: space-between;
+    flex-wrap: wrap;
 }
