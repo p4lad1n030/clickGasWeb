@@ -48,7 +48,7 @@ const User = () => {
     <section className="container ">
       { !logIn && <Navigate to={"/"} />}
       <Menu />
-      <img src={logo} alt="" className="img" />
+      <img src={logo} alt="" className="img mx-auto" />
       <article className="content">
         <div className="w-full flex  justify-between items-center flex-wrap">
           <h1 className="text-5xl mx-auto">{user?.name}</h1>
