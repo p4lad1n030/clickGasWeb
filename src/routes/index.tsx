@@ -12,19 +12,19 @@ const router = createBrowserRouter([
     // element: <Layout/>,
     children: [
       {
-        path: "/",
+        path: "/clickgasweb/",
         element: <Home/>
       },
       {
-        path: "/login",
+        path: "/clickgasweb//login",
         element: <Login/>
       },
       {
-        path: "/politica",
+        path: "/clickgasweb//politica",
         element: <Politica/>
       },
       {
-        path: "/user",
+        path: "/clickgasweb//user",
         element: <User/>
       },
      
