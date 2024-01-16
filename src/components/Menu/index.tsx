@@ -46,17 +46,17 @@ const Menu = ({ politica }: Politica) => {
     <>
       
       <menu className=" menu">
-        <Link to="/">
+        <Link to="/clickgasweb/">
           <p className="text-white font-bold text-3xl mr-5">Home</p>
         </Link>
         {!logIn && (
-          <Link to="/login">
+          <Link to="/clickgasweb/login">
             <p className="text-white font-bold text-3xl mx-5">Login</p>
           </Link>
         )}
 
         {!politica && (
-          <Link to={"/politica"}>
+          <Link to={"/clickgasweb/politica"}>
             <p className="text-white font-bold text-3xl ml-5">
               Politica de Privacidade
             </p>
