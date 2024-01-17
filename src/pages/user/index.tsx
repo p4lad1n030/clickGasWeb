@@ -46,7 +46,7 @@ const User = () => {
 
   return (
     <section className="container ">
-      { !logIn && <Navigate to={"/"} />}
+      { !logIn && <Navigate to={"/clickgasweb/"} />}
       <Menu />
       <img src={logo} alt="" className="img mx-auto" />
       <article className="content">
